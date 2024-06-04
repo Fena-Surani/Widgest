@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- For Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> 
+    <!-- For Animation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+</head>
+<body>
+    <div id="card">
+        <div id="opt">
+            <button linear-gradient(90deg,#4b6cb7 0%, #182848 100%); id="h" onclick="action('home','setting','account','i1','i2','i3')">
+            <i class="fa fa-home" id="i1"> </i>
+            </button>
+
+            <button id="s" onclick="action('setting','home','account','i2','i1','i3')">
+            <i class="fa fa-gear" id="i2"></i>
+            </button>
+
+            <button id="a" onclick="action('account','home','setting','i3','i1','i2')">
+                <i class="fa fa-user" id="i3"></i>
+            </button>
+        </div>
+
+        <div id="home">
+            <p>
+                A home is the main web pade that a visitor will view when they navigate to a website via a search engine,and it may also function as a landing page to attract visitors.
+                In some cases, the home page is a site directory.
+            </p>
+        </div>
+        <div id="setting">
+            <p>
+                A setting provide an easy way to change the contents and layout of each of your website's pages.The page setting meta box can be found in the right column when editing a page and contains the following items.
+            </p>
+        </div>
+        <div id="account">
+            <p>
+                An account with your store have accesss to a menu called my Account. My account is the central customer dashboard in a WooCommerce store. 
+            </p>
+        </div>
+
+
+    </div>
+    <script src="java.js"></script>
+</body>
+</html>

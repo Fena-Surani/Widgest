@@ -1,0 +1,56 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#card{
+    width: 350px;
+    height: auto;
+    border-radius: 3px;
+    background: linear-gradient(40deg,#c44c4c 0%,#4d1515 70%);
+    margin: 200px  auto;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    padding: 5px;
+    box-shadow: 0 0 10px 0 #4b6cb7;
+}
+
+#opt{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    border-bottom: 1px solid gray;
+}
+#opt button #i1{
+    color: #fff;
+}
+
+#opt button{
+    border: none;
+    background: transparent;
+    padding: 12px 33px;
+    font-size: 25px;
+    color: gray;
+    cursor: pointer;
+}
+
+#setting,#account{
+    display: none;
+}
+
+#home,#setting,#account{
+    padding: 25px;
+}
+
+#home ,#setting,#account p{
+    font-size: 20px;
+    word-spacing: 2px;
+    word-break: keep-all;
+    padding: 6px 6px;
+    margin: 0;
+}
